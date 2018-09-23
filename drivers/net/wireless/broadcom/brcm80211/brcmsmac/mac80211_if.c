@@ -1251,6 +1251,7 @@ static int brcms_suspend(struct bcma_device *pdev)
 	return 0;
 }
 
+/*good func with no comment*/
 static int brcms_resume(struct bcma_device *pdev)
 {
 	return 0;
