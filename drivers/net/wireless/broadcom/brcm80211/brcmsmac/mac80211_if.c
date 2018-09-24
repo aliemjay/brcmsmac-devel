@@ -957,6 +957,7 @@ static int brcms_ops_beacon_set_tim(struct ieee80211_hw *hw,
 	return 0;
 }
 
+/*this struct store mac80211 callbacks*/
 static const struct ieee80211_ops brcms_ops = {
 	.tx = brcms_ops_tx,
 	.start = brcms_ops_start,
@@ -1272,6 +1273,7 @@ static int brcms_suspend(struct bcma_device *pdev)
 	return 0;
 }
 
+/*good func with no comment*/
 static int brcms_resume(struct bcma_device *pdev)
 {
 	return 0;
